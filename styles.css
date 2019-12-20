@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+/* RESPONSIVE TYPOGRAPGY */
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  html {
+    font-size: 13.5px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 12.5px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins';
+  font-weight: 400;
+}
+
+/* TOPBAR */
+.topbar {
+  height: 60px;
+  color: #eaeaea;
+  font-size: 0.8rem;
+  font-weight: 400;
+  background-color: black;
+}
+
+/* NAVBAR */
+.nav-link {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+/* HEADER */
+.intern-header {
+  height: 80vh;
+  min-height: 435px;
+  color: white;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.521),
+      rgba(255, 255, 255, 0.466)
+    ),
+    url(./images/pexels-photo-459225.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* ABOUT US */
+.about-us {
+  height: 70vh;
+}
+.about__title {
+  width: 32%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__title span {
+  background-color: #fff;
+  margin: 5px 20px;
+}
+
+.about__title::before {
+  background-color: rgba(10, 190, 10, 0.863);
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+
+.about__title::after {
+  background: none;
+}
+
+.image__rect {
+  position: absolute;
+  top: 30px;
+  left: -10px;
+  z-index: 10;
+  border: 2px solid rgba(10, 190, 10, 0.863);
+}
+
+/* FEATURES SECTION */
+.features-section {
+  height: 40vh;
+  min-height: 220px;
+  background-color: black;
+}
+
+/* CUSTOMER SECTION */
+.customers-section {
+  height: 70vh;
+  min-height: 380px;
+  background: rgba(10, 190, 10, 0.863);
+}
+
+.success-img {
+  max-width: 400px;
+  height: 70vh;
+}
+
+/* TEAM AND COLLABORATION SECTION */
+.collab-section {
+  min-height: 230px;
+  background-color: #eaeaea3a;
+}
+
+.collab__title {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collab__title span {
+  margin: 0 15px;
+}
+
+.collab__title::before,
+.collab__title::after {
+  background-color: rgba(10, 190, 10, 0.863);
+  height: 2px;
+  flex: 1;
+  content: '';
+}
+
+/* PROGRAMS AND PACKAGES SECTION */
+.programs-packages-section {
+  min-height: 1040px;
+}
+
+.program-section {
+  height: 70vh;
+  background-color: black;
+}
+
+.program-cards {
+  min-height: 450px;
+  top: 260px;
+  left: 30px;
+}
+
+.packages-section {
+  height: 120vh;
+  min-height: 652px;
+}
